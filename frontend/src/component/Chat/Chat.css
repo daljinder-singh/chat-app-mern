@@ -1,0 +1,96 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1d;
+}
+.container {
+  display: grid;
+  width: 35%;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  height: 60%;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.chat_list{
+  height: 60%;
+  background-color: green;
+  width: 15%;
+}
+.list_form {
+  margin: 6px 0 0 2px;
+}
+.gridOne {
+  width: 65%;
+  margin: 3px;
+}
+
+.messages_section {
+  padding: 10px;
+  overflow-y: scroll;
+}
+li {
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  list-style-type: none;
+width: 95%;
+    margin: 5px 5px;
+}
+.messages_section div {
+  margin: 10px 2px;
+}
+.room_name {
+  display: flex;
+  place-content: space-between;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.notification{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: gray;
+  cursor: pointer;
+  color: black
+}
+.usermessage {
+  display: grid;
+  justify-items: flex-end;
+  color: green;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2px;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+.clientmessage {
+  color: red;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2px;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+  height: 50px;
+}
+
+.input {
+  border: none;
+  width: 80%;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-decoration: none;
+  background: #2979ff;
+  border: none;
+  width: 20%;
+}
